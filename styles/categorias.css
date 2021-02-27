@@ -1,0 +1,80 @@
+:root {
+  --primary: #17121F;
+  --secundary: ##F3E298;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:var(--primary);
+  font-family: 'Roboto Slab', serif;
+  color: #F6F6F6;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--F6F6F6);
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.active {
+  text-decoration:underline;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #AAAAAA;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color: #F6F6F6;
+}
+
+.main-container {
+  font-size: 16px;
+  background:
+    linear-gradient(rgba(0,0,0,.50) ,rgba(0,0,0,.50)100%),
+    url('../img/capa-home.jpg');
+
+  height: 400px;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-list {
+  border-bottom: 1px solid;
+}
+
+ul {
+  text-align: left;
+}
+li {
+  list-style-type: none;
+
+}
